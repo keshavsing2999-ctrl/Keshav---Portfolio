@@ -1,0 +1,151 @@
+{
+  "profile": {
+    "name": "Keshav Singh",
+    "shortName": "Keshav",
+    "tagline": "Helping brands scale creativity, content, and growth through Generative AI and strategic storytelling.",
+    "role": "Gen AI Strategist | AI Content Systems Designer | Growth Consultant",
+    "specialization": "Generative AI · Content Strategy · AI Video Production",
+    "location": "Gurgaon, India",
+    "yearsOfExperience": "2+",
+    "bio": "I am a Gen AI Strategist with experience in leveraging artificial intelligence to create high-impact content, visual campaigns, and scalable creative workflows for brands. I specialize in combining AI tools with business strategy to help companies reduce production time, improve content quality, and strengthen brand positioning. My work spans luxury products, retail destinations, digital marketing, and thought leadership content.",
+    "avatarImg": "/src/assets/img/avatar.png",
+    "social": {
+      "github": "",
+      "linkedin": "https://linkedin.com/in/keshav-singh-177193367",
+      "instagram": "",
+      "email": "singhkeshav2999@gmail.com",
+      "phone": "+91 9125792602",
+      "website": ""
+    }
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Generative AI",
+        "items": ["ChatGPT", "Claude", "Grok", "Gemini", "Prompt Engineering", "AI Workflow Design", "AI Research Systems"]
+      },
+      {
+        "name": "AI Video & Creative Production",
+        "items": ["Google Flow", "Higgsfield", "AI Image Generation", "AI Video Generation", "Creative Direction", "Storyboarding"]
+      },
+      {
+        "name": "Strategy & Marketing",
+        "items": ["Content Strategy", "Brand Positioning", "Growth Marketing", "Market Research", "Competitor Analysis", "LinkedIn Strategy"]
+      },
+      {
+        "name": "Analytics & Business",
+        "items": ["Excel", "Power BI", "Business Analysis", "Strategic Planning", "Presentation Design"]
+      },
+      {
+        "name": "Productivity Tools",
+        "items": ["Notion", "Canva", "Microsoft PowerPoint", "Google Workspace"]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "EOD Media",
+      "role": "Gen AI Strategist",
+      "period": "2025 – Present",
+      "location": "Remote, India",
+      "summary": "Developing AI-powered creative campaigns, branded content systems, and visual storytelling frameworks for luxury, lifestyle, retail, and commercial brands using advanced Generative AI tools.",
+      "highlights": [
+        "Delivered AI-generated content campaigns for premium brands including AROME, CS Jewels, Solitario, AeroMall Pune, and Mantri Mall Bangalore.",
+        "Built end-to-end AI creative workflows using Google Flow, Higgsfield, GPT, Claude, and Grok, significantly reducing content production timelines.",
+        "Created cinematic AI-generated advertisements, luxury product campaigns, LinkedIn thought leadership content, and social-first video assets."
+      ]
+    },
+    {
+      "company": "Corizo",
+      "role": "Digital Marketing Intern",
+      "period": "2024",
+      "location": "Remote",
+      "summary": "Worked on SEO, email marketing, and digital campaign execution to improve brand visibility and engagement.",
+      "highlights": [
+        "Improved campaign engagement by approximately 25%.",
+        "Conducted keyword research and SEO optimization initiatives.",
+        "Supported digital marketing campaigns through data-backed insights and performance analysis."
+      ]
+    },
+    {
+      "company": "J & K Industry",
+      "role": "Social Media Marketing Intern",
+      "period": "2023 – 2024",
+      "location": "Remote",
+      "summary": "Managed social media content and engagement initiatives to improve digital presence and community interaction.",
+      "highlights": [
+        "Increased audience engagement through targeted content strategies.",
+        "Supported brand awareness campaigns across multiple platforms.",
+        "Contributed to content planning and execution for business growth."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "arome-luxury",
+      "title": "AROME Luxury Fragrance Campaign",
+      "subtitle": "AI-powered luxury storytelling for a premium fragrance brand.",
+      "description": "Created cinematic product advertisements, visual concepts, and AI-generated campaign assets designed to communicate elegance, sophistication, and luxury. Built scalable workflows for premium content production.",
+      "stack": ["Google Flow", "Higgsfield", "GPT", "Claude", "Grok"],
+      "role": "Gen AI Strategist & Creative Director",
+      "year": "2025",
+      "link": "",
+      "images": [
+        "/src/assets/img/arome_affair.jpg",
+        "/src/assets/img/arome_rebel.jpg",
+        "/src/assets/img/arome_champ.jpg"
+      ],
+      "highlight": true
+    },
+    {
+      "id": "cs-jewels",
+      "title": "CS Jewels Luxury Content System",
+      "subtitle": "Premium jewelry advertising through Generative AI.",
+      "description": "Developed luxury-focused AI-generated product visuals and campaign concepts for social media and digital marketing initiatives while maintaining brand consistency and premium aesthetics.",
+      "stack": ["Google Flow", "GPT", "Claude", "AI Image Generation"],
+      "role": "Gen AI Strategist",
+      "year": "2025",
+      "link": "",
+      "image": "/src/assets/img/csjewels_work.jpg",
+      "highlight": true
+    },
+    {
+      "id": "solitario",
+      "title": "Solitario Premium Jewellery Campaign",
+      "subtitle": "Modern luxury storytelling powered by AI.",
+      "description": "Created visual concepts and campaign narratives focused on exclusivity, craftsmanship, and aspirational branding for premium jewellery audiences.",
+      "stack": ["GPT", "Claude", "Higgsfield", "AI Creative Tools"],
+      "role": "Creative Strategist & AI Content Lead",
+      "year": "2025",
+      "link": "",
+      "image": "/src/assets/img/solitario_work.jpg",
+      "highlight": true
+    },
+    {
+      "id": "aeromall-pune",
+      "title": "AeroMall Pune LinkedIn Growth",
+      "subtitle": "Building professional brand presence through strategic content.",
+      "description": "Developed LinkedIn content focused on retail experiences, customer engagement, and business growth to strengthen professional brand visibility.",
+      "stack": ["GPT", "Claude", "Market Research Tools"],
+      "role": "Content Strategist",
+      "year": "2025",
+      "link": "",
+      "image": "/src/assets/img/aeromall_logo.png",
+      "highlight": true
+    },
+    {
+      "id": "mantri-mall",
+      "title": "Mantri Mall Bangalore Thought Leadership",
+      "subtitle": "Strategic LinkedIn content for a leading retail destination.",
+      "description": "Created research-backed LinkedIn content aimed at enhancing brand credibility, industry relevance, and audience engagement.",
+      "stack": ["GPT", "Claude", "Grok", "Research Systems"],
+      "role": "LinkedIn Content Strategist",
+      "year": "2025",
+      "link": "",
+      "image": "",
+      "highlight": true
+    }
+  ],
+  "education": [],
+  "testimonials": []
+}
