@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+/* ===== Custom Theme Tokens ===== */
+@theme {
+  --color-dark-bg: #0C0C0C;
+  --color-dark-card: #141414;
+  --color-dark-border: #2a2a2a;
+  --color-dark-border-light: #333333;
+  --font-family-kanit: 'Kanit', sans-serif;
+}
+
+/* ===== Base Styles ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0C0C0C;
+  color: #e5e7eb;
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== Chrome Gradient Heading ===== */
+.hero-heading {
+  background: linear-gradient(180deg, #646973 0%, #BBCCD7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* ===== Section Heading (smaller chrome gradient) ===== */
+.section-heading {
+  background: linear-gradient(180deg, #646973 0%, #BBCCD7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+/* ===== Accent Gradient Text ===== */
+.accent-gradient-text {
+  background: linear-gradient(135deg, #a855f7, #ec4899, #f97316);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 800;
+}
+
+/* ===== Accent Gradient Background ===== */
+.accent-gradient-bg {
+  background: linear-gradient(135deg, #a855f7, #ec4899, #f97316);
+}
+
+/* ===== Testimonial Marquee ===== */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  display: flex;
+  gap: 1.5rem;
+  animation: marquee 30s linear infinite;
+  width: max-content;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ===== Reduced Motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .marquee-track {
+    animation: none;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+
+  .marquee-track > * {
+    scroll-snap-align: start;
+  }
+}
+
+/* ===== Custom Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0C0C0C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* ===== Selection ===== */
+::selection {
+  background-color: rgba(168, 85, 247, 0.3);
+  color: white;
+}
+
+/* ===== Utility: No mid-word break ===== */
+.no-word-break {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* ===== Glow Effects ===== */
+.avatar-glow {
+  box-shadow: 0 0 60px rgba(168, 85, 247, 0.2), 0 0 120px rgba(236, 72, 153, 0.1);
+}
+
+.card-hover-glow:hover {
+  box-shadow: 0 8px 40px rgba(168, 85, 247, 0.08), 0 0 0 1px rgba(168, 85, 247, 0.15);
+}
